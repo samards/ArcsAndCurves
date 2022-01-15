@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="D:\Garmin\WatchFace\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="1" lineNum="23" parent="globals/WatchFaceView" pc="268435456" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="1" lineNum="24" parent="globals/WatchFaceView" pc="268435460" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="28" parent="globals/WatchFaceView" pc="268435479" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="29" parent="globals/WatchFaceView" pc="268435483" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="30" parent="globals/WatchFaceView" pc="268435513" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="31" parent="globals/WatchFaceView" pc="268435543" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="33" parent="globals/WatchFaceView" pc="268435573" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="34" parent="globals/WatchFaceView" pc="268435616" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="35" parent="globals/WatchFaceView" pc="268435659" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="37" parent="globals/WatchFaceView" pc="268435702" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="38" parent="globals/WatchFaceView" pc="268435745" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="2" lineNum="40" parent="globals/WatchFaceView" pc="268435788" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="3" lineNum="46" parent="globals/WatchFaceView" pc="268435826" symbol="onShow"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="50" parent="globals/WatchFaceView" pc="268435831" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="52" parent="globals/WatchFaceView" pc="268435835" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="54" parent="globals/WatchFaceView" pc="268435855" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="55" parent="globals/WatchFaceView" pc="268435874" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="58" parent="globals/WatchFaceView" pc="268435893" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="59" parent="globals/WatchFaceView" pc="268435910" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="60" parent="globals/WatchFaceView" pc="268435934" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="62" parent="globals/WatchFaceView" pc="268435958" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="63" parent="globals/WatchFaceView" pc="268435977" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="65" parent="globals/WatchFaceView" pc="268435996" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="66" parent="globals/WatchFaceView" pc="268436019" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="73" parent="globals/WatchFaceView" pc="268436032" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="75" parent="globals/WatchFaceView" pc="268436068" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="83" parent="globals/WatchFaceView" pc="268436125" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="84" parent="globals/WatchFaceView" pc="268436154" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="92" parent="globals/WatchFaceView" pc="268436211" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="93" parent="globals/WatchFaceView" pc="268436228" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="94" parent="globals/WatchFaceView" pc="268436252" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="95" parent="globals/WatchFaceView" pc="268436281" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="96" parent="globals/WatchFaceView" pc="268436303" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="97" parent="globals/WatchFaceView" pc="268436341" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="98" parent="globals/WatchFaceView" pc="268436377" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="107" parent="globals/WatchFaceView" pc="268436434" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="108" parent="globals/WatchFaceView" pc="268436470" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="109" parent="globals/WatchFaceView" pc="268436489" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="110" parent="globals/WatchFaceView" pc="268436496" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="113" parent="globals/WatchFaceView" pc="268436543" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="114" parent="globals/WatchFaceView" pc="268436572" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="115" parent="globals/WatchFaceView" pc="268436589" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="116" parent="globals/WatchFaceView" pc="268436649" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="117" parent="globals/WatchFaceView" pc="268436686" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="118" parent="globals/WatchFaceView" pc="268436716" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="119" parent="globals/WatchFaceView" pc="268436752" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="120" parent="globals/WatchFaceView" pc="268436855" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="121" parent="globals/WatchFaceView" pc="268436891" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="124" parent="globals/WatchFaceView" pc="268437065" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="125" parent="globals/WatchFaceView" pc="268437094" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="127" parent="globals/WatchFaceView" pc="268437182" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="128" parent="globals/WatchFaceView" pc="268437270" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="129" parent="globals/WatchFaceView" pc="268437358" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="130" parent="globals/WatchFaceView" pc="268437446" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="4" lineNum="132" parent="globals/WatchFaceView" pc="268437534" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="135" parent="globals/WatchFaceView" pc="268437591" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="136" parent="globals/WatchFaceView" pc="268437595" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="137" parent="globals/WatchFaceView" pc="268437624" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="139" parent="globals/WatchFaceView" pc="268437712" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="140" parent="globals/WatchFaceView" pc="268437748" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="141" parent="globals/WatchFaceView" pc="268437795" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="142" parent="globals/WatchFaceView" pc="268437831" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="144" parent="globals/WatchFaceView" pc="268437878" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="145" parent="globals/WatchFaceView" pc="268437909" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="5" lineNum="146" parent="globals/WatchFaceView" pc="268437920" symbol="drawSunData"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="6" lineNum="153" parent="globals/WatchFaceView" pc="268438015" symbol="onHide"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="7" lineNum="157" parent="globals/WatchFaceView" pc="268438020" symbol="onExitSleep"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="8" lineNum="161" parent="globals/WatchFaceView" pc="268438025" symbol="onEnterSleep"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="9" parent="globals/WatchFaceView" pc="268444337" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceView.mc" id="9" lineNum="9" parent="globals/WatchFaceView" pc="268444337" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResLookups.mc" id="11" lineNum="3" parent="globals" pc="268438030" symbol="getLookupsmontserat"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResLookups.mc" id="11" lineNum="4" parent="globals" pc="268438042" symbol="getLookupsmontserat"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResLookups.mc" id="12" lineNum="6" parent="globals" pc="268438093" symbol="getLookupscantarell"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResLookups.mc" id="12" lineNum="7" parent="globals" pc="268438105" symbol="getLookupscantarell"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResLookups.mc" id="13" lineNum="9" parent="globals" pc="268438156" symbol="getLookupsmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResLookups.mc" id="13" lineNum="10" parent="globals" pc="268438168" symbol="getLookupsmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResLookups.mc" id="14" lineNum="12" parent="globals" pc="268438219" symbol="getLookupsicons"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResLookups.mc" id="14" lineNum="13" parent="globals" pc="268438231" symbol="getLookupsicons"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="2" parent="globals" pc="268438282" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="3" parent="globals" pc="268438294" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="3" parent="globals" pc="268438305" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="4" parent="globals" pc="268438344" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="4" parent="globals" pc="268438355" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="5" parent="globals" pc="268438394" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="5" parent="globals" pc="268438405" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="6" parent="globals" pc="268438444" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="6" parent="globals" pc="268438455" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="7" parent="globals" pc="268438494" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="7" parent="globals" pc="268438505" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="8" parent="globals" pc="268438544" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="8" parent="globals" pc="268438555" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="9" parent="globals" pc="268438594" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="9" parent="globals" pc="268438605" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="10" parent="globals" pc="268438644" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="10" parent="globals" pc="268438655" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="11" parent="globals" pc="268438694" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="11" parent="globals" pc="268438705" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="12" parent="globals" pc="268438744" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="12" parent="globals" pc="268438755" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="13" parent="globals" pc="268438794" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="13" parent="globals" pc="268438805" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="14" parent="globals" pc="268438844" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="14" parent="globals" pc="268438855" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="15" parent="globals" pc="268438894" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="15" parent="globals" pc="268438905" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="16" parent="globals" pc="268438944" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="16" parent="globals" pc="268438955" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="17" parent="globals" pc="268438994" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="17" parent="globals" pc="268439005" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="18" parent="globals" pc="268439044" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="18" parent="globals" pc="268439055" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="19" parent="globals" pc="268439094" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="19" parent="globals" pc="268439105" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\ResFonts.mc" id="16" lineNum="20" parent="globals" pc="268439144" symbol="getFontmiriam"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="18" lineNum="14" parent="globals/TimeInfo" pc="268439181" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="19" lineNum="18" parent="globals/TimeInfo" pc="268439186" symbol="getFormattedDay"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="19" lineNum="20" parent="globals/TimeInfo" pc="268439190" symbol="getFormattedDay"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="19" lineNum="21" parent="globals/TimeInfo" pc="268439204" symbol="getFormattedDay"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="19" lineNum="22" parent="globals/TimeInfo" pc="268439220" symbol="getFormattedDay"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="19" lineNum="23" parent="globals/TimeInfo" pc="268439250" symbol="getFormattedDay"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="19" lineNum="34" parent="globals/TimeInfo" pc="268439571" symbol="getFormattedDay"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="37" parent="globals/TimeInfo" pc="268439581" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="38" parent="globals/TimeInfo" pc="268439585" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="39" parent="globals/TimeInfo" pc="268439602" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="40" parent="globals/TimeInfo" pc="268439612" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="41" parent="globals/TimeInfo" pc="268439619" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="43" parent="globals/TimeInfo" pc="268439619" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="43" parent="globals/TimeInfo" pc="268439644" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="44" parent="globals/TimeInfo" pc="268439654" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="44" parent="globals/TimeInfo" pc="268439665" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="45" parent="globals/TimeInfo" pc="268439675" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="45" parent="globals/TimeInfo" pc="268439728" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="46" parent="globals/TimeInfo" pc="268439738" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="46" parent="globals/TimeInfo" pc="268439749" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="47" parent="globals/TimeInfo" pc="268439759" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="47" parent="globals/TimeInfo" pc="268439770" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="48" parent="globals/TimeInfo" pc="268439780" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="48" parent="globals/TimeInfo" pc="268439917" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="49" parent="globals/TimeInfo" pc="268439927" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="49" parent="globals/TimeInfo" pc="268440120" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="50" parent="globals/TimeInfo" pc="268440130" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="50" parent="globals/TimeInfo" pc="268440169" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="51" parent="globals/TimeInfo" pc="268440179" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="51" parent="globals/TimeInfo" pc="268440260" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="52" parent="globals/TimeInfo" pc="268440270" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="20" lineNum="54" parent="globals/TimeInfo" pc="268440277" symbol="getWeather"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="75" parent="globals/TimeInfo" pc="268440281" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="78" parent="globals/TimeInfo" pc="268440285" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="79" parent="globals/TimeInfo" pc="268440298" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="81" parent="globals/TimeInfo" pc="268440311" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="82" parent="globals/TimeInfo" pc="268440328" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="83" parent="globals/TimeInfo" pc="268440333" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="85" parent="globals/TimeInfo" pc="268440380" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="86" parent="globals/TimeInfo" pc="268440424" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="87" parent="globals/TimeInfo" pc="268440448" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="90" parent="globals/TimeInfo" pc="268440472" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="91" parent="globals/TimeInfo" pc="268440509" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="92" parent="globals/TimeInfo" pc="268440528" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="93" parent="globals/TimeInfo" pc="268440553" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="102" parent="globals/TimeInfo" pc="268440686" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="106" parent="globals/TimeInfo" pc="268440710" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="110" parent="globals/TimeInfo" pc="268440727" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="111" parent="globals/TimeInfo" pc="268440751" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="112" parent="globals/TimeInfo" pc="268440770" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="113" parent="globals/TimeInfo" pc="268440777" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="114" parent="globals/TimeInfo" pc="268440796" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="118" parent="globals/TimeInfo" pc="268440803" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="124" parent="globals/TimeInfo" pc="268440909" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="125" parent="globals/TimeInfo" pc="268440932" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="126" parent="globals/TimeInfo" pc="268440951" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="127" parent="globals/TimeInfo" pc="268440958" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="128" parent="globals/TimeInfo" pc="268440977" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="132" parent="globals/TimeInfo" pc="268440984" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="138" parent="globals/TimeInfo" pc="268441066" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="142" parent="globals/TimeInfo" pc="268441131" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="147" parent="globals/TimeInfo" pc="268441238" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="148" parent="globals/TimeInfo" pc="268441249" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="152" parent="globals/TimeInfo" pc="268441281" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="153" parent="globals/TimeInfo" pc="268441292" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="157" parent="globals/TimeInfo" pc="268441324" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="158" parent="globals/TimeInfo" pc="268441346" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="159" parent="globals/TimeInfo" pc="268441359" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="160" parent="globals/TimeInfo" pc="268441372" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="161" parent="globals/TimeInfo" pc="268441379" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="163" parent="globals/TimeInfo" pc="268441386" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="21" lineNum="164" parent="globals/TimeInfo" pc="268441427" symbol="getSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="22" lineNum="170" parent="globals/TimeInfo" pc="268441473" symbol="dayChanged"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="22" lineNum="171" parent="globals/TimeInfo" pc="268441477" symbol="dayChanged"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="22" lineNum="172" parent="globals/TimeInfo" pc="268441521" symbol="dayChanged"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="22" lineNum="173" parent="globals/TimeInfo" pc="268441563" symbol="dayChanged"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="22" lineNum="174" parent="globals/TimeInfo" pc="268441573" symbol="dayChanged"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="22" lineNum="176" parent="globals/TimeInfo" pc="268441579" symbol="dayChanged"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="23" lineNum="179" parent="globals/TimeInfo" pc="268441583" symbol="getSunAngle"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="23" lineNum="180" parent="globals/TimeInfo" pc="268441587" symbol="getSunAngle"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="23" lineNum="181" parent="globals/TimeInfo" pc="268441617" symbol="getSunAngle"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="23" lineNum="184" parent="globals/TimeInfo" pc="268441632" symbol="getSunAngle"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="23" lineNum="185" parent="globals/TimeInfo" pc="268441657" symbol="getSunAngle"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="23" lineNum="186" parent="globals/TimeInfo" pc="268441716" symbol="getSunAngle"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="23" lineNum="189" parent="globals/TimeInfo" pc="268441773" symbol="getSunAngle"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="24" lineNum="192" parent="globals/TimeInfo" pc="268441780" symbol="calcSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="24" lineNum="193" parent="globals/TimeInfo" pc="268441784" symbol="calcSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="24" lineNum="196" parent="globals/TimeInfo" pc="268441807" symbol="calcSunTimes"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\DataText.mc" id="25" lineNum="8" parent="globals/TimeInfo" pc="268444336" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="14" parent="globals/Font" pc="268441840" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="16" parent="globals/Font" pc="268441844" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="17" parent="globals/Font" pc="268441858" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="18" parent="globals/Font" pc="268441872" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="20" parent="globals/Font" pc="268441891" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="21" parent="globals/Font" pc="268441910" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="24" parent="globals/Font" pc="268441920" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="25" parent="globals/Font" pc="268441961" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="27" parent="globals/Font" pc="268442005" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="28" parent="globals/Font" pc="268442024" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="29" parent="globals/Font" pc="268442043" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="27" lineNum="30" parent="globals/Font" pc="268442075" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="28" lineNum="33" parent="globals/Font" pc="268442119" symbol="freeMemory"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="28" lineNum="35" parent="globals/Font" pc="268442123" symbol="freeMemory"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="28" lineNum="36" parent="globals/Font" pc="268442142" symbol="freeMemory"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="28" lineNum="37" parent="globals/Font" pc="268442184" symbol="freeMemory"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="28" lineNum="38" parent="globals/Font" pc="268442210" symbol="freeMemory"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="28" lineNum="39" parent="globals/Font" pc="268442225" symbol="freeMemory"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="28" lineNum="40" parent="globals/Font" pc="268442257" symbol="freeMemory"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="28" lineNum="41" parent="globals/Font" pc="268442271" symbol="freeMemory"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="47" parent="globals/Font" pc="268442292" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="48" parent="globals/Font" pc="268442296" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="49" parent="globals/Font" pc="268442317" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="50" parent="globals/Font" pc="268442324" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="51" parent="globals/Font" pc="268442354" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="52" parent="globals/Font" pc="268442380" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="53" parent="globals/Font" pc="268442395" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="57" parent="globals/Font" pc="268442420" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="58" parent="globals/Font" pc="268442440" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="29" lineNum="60" parent="globals/Font" pc="268442460" symbol="getFont"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\Font.mc" id="30" lineNum="3" parent="globals/Font" pc="268444817" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="32" lineNum="82" parent="globals/SunCalc" pc="268442464" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="32" lineNum="83" parent="globals/SunCalc" pc="268442468" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="32" lineNum="84" parent="globals/SunCalc" pc="268442477" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="33" lineNum="87" parent="globals/SunCalc" pc="268442487" symbol="fromJulian"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="33" lineNum="88" parent="globals/SunCalc" pc="268442491" symbol="fromJulian"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="34" lineNum="91" parent="globals/SunCalc" pc="268442545" symbol="round"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="34" lineNum="92" parent="globals/SunCalc" pc="268442549" symbol="round"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="34" lineNum="93" parent="globals/SunCalc" pc="268442560" symbol="round"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="34" lineNum="95" parent="globals/SunCalc" pc="268442590" symbol="round"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="100" parent="globals/SunCalc" pc="268442618" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="101" parent="globals/SunCalc" pc="268442622" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="102" parent="globals/SunCalc" pc="268442677" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="103" parent="globals/SunCalc" pc="268442708" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="105" parent="globals/SunCalc" pc="268442750" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="106" parent="globals/SunCalc" pc="268442793" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="107" parent="globals/SunCalc" pc="268442821" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="108" parent="globals/SunCalc" pc="268442852" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="109" parent="globals/SunCalc" pc="268442955" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="110" parent="globals/SunCalc" pc="268442995" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="111" parent="globals/SunCalc" pc="268443032" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="112" parent="globals/SunCalc" pc="268443084" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="113" parent="globals/SunCalc" pc="268443139" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="114" parent="globals/SunCalc" pc="268443149" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="117" parent="globals/SunCalc" pc="268443162" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="118" parent="globals/SunCalc" pc="268443176" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="121" parent="globals/SunCalc" pc="268443199" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="123" parent="globals/SunCalc" pc="268443311" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="124" parent="globals/SunCalc" pc="268443336" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="127" parent="globals/SunCalc" pc="268443341" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="129" parent="globals/SunCalc" pc="268443396" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="130" parent="globals/SunCalc" pc="268443439" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="131" parent="globals/SunCalc" pc="268443453" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="134" parent="globals/SunCalc" pc="268443470" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="35" lineNum="136" parent="globals/SunCalc" pc="268443492" symbol="calculate"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="36" lineNum="53" parent="globals/SunCalc" pc="268444387" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="36" lineNum="54" parent="globals/SunCalc" pc="268444407" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="36" lineNum="55" parent="globals/SunCalc" pc="268444433" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="36" lineNum="56" parent="globals/SunCalc" pc="268444459" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="36" lineNum="61" parent="globals/SunCalc" pc="268444485" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\SunCalc.mc" id="36" lineNum="51" parent="globals/SunCalc" pc="268444387" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="38" lineNum="3" parent="globals/BezelText" pc="268443507" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="6" parent="globals/BezelText" pc="268443512" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="9" parent="globals/BezelText" pc="268443516" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="10" parent="globals/BezelText" pc="268443532" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="14" parent="globals/BezelText" pc="268443548" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="15" parent="globals/BezelText" pc="268443572" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="17" parent="globals/BezelText" pc="268443604" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="20" parent="globals/BezelText" pc="268443608" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="22" parent="globals/BezelText" pc="268443649" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="24" parent="globals/BezelText" pc="268443672" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="27" parent="globals/BezelText" pc="268443693" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="27" parent="globals/BezelText" pc="268443704" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="28" parent="globals/BezelText" pc="268443717" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="28" parent="globals/BezelText" pc="268443728" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="33" parent="globals/BezelText" pc="268443741" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="34" parent="globals/BezelText" pc="268443748" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="35" parent="globals/BezelText" pc="268443765" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="36" parent="globals/BezelText" pc="268443782" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="39" parent="globals/BezelText" pc="268443792" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="40" parent="globals/BezelText" pc="268443807" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="41" parent="globals/BezelText" pc="268443827" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="45" parent="globals/BezelText" pc="268443879" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="39" lineNum="47" parent="globals/BezelText" pc="268443886" symbol="draw"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="40" lineNum="51" parent="globals/BezelText" pc="268443913" symbol="getTextWidth"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="40" lineNum="52" parent="globals/BezelText" pc="268443917" symbol="getTextWidth"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="40" lineNum="53" parent="globals/BezelText" pc="268443924" symbol="getTextWidth"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="40" lineNum="54" parent="globals/BezelText" pc="268443928" symbol="getTextWidth"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="40" lineNum="55" parent="globals/BezelText" pc="268443955" symbol="getTextWidth"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="40" lineNum="56" parent="globals/BezelText" pc="268443978" symbol="getTextWidth"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="40" lineNum="57" parent="globals/BezelText" pc="268444002" symbol="getTextWidth"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="40" lineNum="59" parent="globals/BezelText" pc="268444015" symbol="getTextWidth"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\BezelText.mc" id="41" lineNum="1" parent="globals/BezelText" pc="268444356" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="43" lineNum="7" parent="globals/WatchFaceApp" pc="268444019" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="43" lineNum="8" parent="globals/WatchFaceApp" pc="268444023" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="44" lineNum="12" parent="globals/WatchFaceApp" pc="268444042" symbol="onStart"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="45" lineNum="16" parent="globals/WatchFaceApp" pc="268444047" symbol="onStop"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="46" lineNum="20" parent="globals/WatchFaceApp" pc="268444052" symbol="getInitialView"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="46" lineNum="21" parent="globals/WatchFaceApp" pc="268444056" symbol="getInitialView"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="47" lineNum="5" parent="globals/WatchFaceApp" pc="268444317" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="47" lineNum="5" parent="globals/WatchFaceApp" pc="268444317" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="48" lineNum="26" parent="globals" pc="268444094" symbol="getApp"/>
+        <entry filename="D:\\Garmin\\WatchFace\\source\\WatchFaceApp.mc" id="48" lineNum="27" parent="globals" pc="268444106" symbol="getApp"/>
+        <entry filename="Rez" id="50" lineNum="2" parent="globals/Rez/Drawables" pc="268444381" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="51" lineNum="8" parent="globals/Rez/Fonts" pc="268444383" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="52" lineNum="35" parent="globals/Rez/JsonData" pc="268444385" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="53" lineNum="53" parent="globals/Rez/Layouts" pc="268444123" symbol="WatchFace"/>
+        <entry filename="Rez" id="53" lineNum="55" parent="globals/Rez/Layouts" pc="268444135" symbol="WatchFace"/>
+        <entry filename="Rez" id="53" lineNum="57" parent="globals/Rez/Layouts" pc="268444298" symbol="WatchFace"/>
+        <entry filename="Rez" id="54" lineNum="46" parent="globals/Rez/Layouts" pc="268444384" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="55" lineNum="62" parent="globals/Rez/Menus" pc="268444382" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="56" lineNum="64" parent="globals/Rez/Strings" pc="268444386" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="57" lineNum="1" parent="globals/Rez" pc="268444357" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="57" lineNum="1" parent="globals/Rez" pc="268444357" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="87" symbol="lookup_cantarell_0"/>
+        <entry id="15" object="true" symbol="TimeInfo"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="54" symbol="mSunsetIcon"/>
+        <entry field="true" id="77" symbol="miriam_0"/>
+        <entry field="true" id="96" symbol="PI2"/>
+        <entry field="true" id="25" symbol="GOLDEN_HOUR_PM"/>
+        <entry field="true" id="8388726" method="true" symbol="freeMemory"/>
+        <entry field="true" id="63" symbol="MinutesFont"/>
+        <entry id="35" object="true" symbol="WatchFaceApp"/>
+        <entry id="10" method="true" symbol="getLookupsmontserat"/>
+        <entry field="true" id="52" symbol="mTimeInfo"/>
+        <entry field="true" id="23" symbol="GOLDEN_HOUR_AM"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="31" symbol="NIGHT"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="66" symbol="IconSunrise"/>
+        <entry field="true" id="98" symbol="J1970"/>
+        <entry field="true" id="120" symbol="fontmemorysize"/>
+        <entry field="true" id="45" symbol="displayHeight"/>
+        <entry field="true" id="101" symbol="TIMES"/>
+        <entry field="true" id="50" symbol="mMinutesFont"/>
+        <entry field="true" id="94" symbol="AppName"/>
+        <entry id="13" method="true" symbol="getLookupsicons"/>
+        <entry field="true" id="47" symbol="bezelText"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="93" symbol="lookup_icons_0"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="51" symbol="mDataFont"/>
+        <entry field="true" id="115" symbol="fontcache"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry field="true" id="49" symbol="mHoursFont"/>
+        <entry field="true" id="107" symbol="sinM"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="21" symbol="SUNRISE"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="86" symbol="letterwidths_cantarell"/>
+        <entry field="true" id="17" symbol="NIGHT_END"/>
+        <entry field="true" id="30" symbol="NAUTICAL_DUSK"/>
+        <entry field="true" id="88" symbol="letterwidths_montserat"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="11" method="true" symbol="getLookupscantarell"/>
+        <entry field="true" id="85" symbol="miriam_80"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
+        <entry field="true" id="84" symbol="miriam_70"/>
+        <entry id="8389719" method="true" symbol="round"/>
+        <entry field="true" id="83" symbol="miriam_60"/>
+        <entry field="true" id="82" symbol="miriam_50"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="81" symbol="miriam_40"/>
+        <entry field="true" id="8389348" symbol="font"/>
+        <entry field="true" id="117" symbol="fontheight"/>
+        <entry field="true" id="80" symbol="miriam_30"/>
+        <entry field="true" id="79" symbol="miriam_20"/>
+        <entry id="58" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="48" symbol="dateText"/>
+        <entry field="true" id="78" symbol="miriam_10"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="28" symbol="BLUE_HOUR_PM"/>
+        <entry field="true" id="118" symbol="fontlookups"/>
+        <entry id="42" method="true" symbol="dayChanged"/>
+        <entry id="14" method="true" symbol="getFontmiriam"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="44" method="true" symbol="calcSunTimes"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="36" symbol="&lt;globals/TimeInfo/&lt;&gt;mTodayTime&gt;"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="18" symbol="NAUTICAL_DAWN"/>
+        <entry id="56" method="true" symbol="getTextWidth"/>
+        <entry field="true" id="105" symbol="ds"/>
+        <entry field="true" id="46" symbol="displayWidth"/>
+        <entry field="true" id="37" symbol="&lt;globals/TimeInfo/&lt;&gt;mTodayDay&gt;"/>
+        <entry field="true" id="20" symbol="BLUE_HOUR_AM"/>
+        <entry field="true" id="29" symbol="DUSK"/>
+        <entry field="true" id="62" symbol="HoursFont"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="64" symbol="SecondsFont"/>
+        <entry field="true" id="27" symbol="SUNSET"/>
+        <entry id="113" method="true" symbol="fromJulian"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="110" symbol="sin2L"/>
+        <entry id="122" method="true" symbol="getFont"/>
+        <entry field="true" id="65" symbol="DateFont"/>
+        <entry field="true" id="8388893" symbol="PI"/>
+        <entry field="true" id="32" symbol="NUM_RESULTS"/>
+        <entry id="16" object="true" symbol="Font"/>
+        <entry field="true" id="102" symbol="lastD"/>
+        <entry field="true" id="38" symbol="&lt;globals/TimeInfo/&lt;&gt;mSunTimes&gt;"/>
+        <entry field="true" id="97" symbol="DAYS"/>
+        <entry field="true" id="116" symbol="fontLRU"/>
+        <entry field="true" id="19" symbol="DAWN"/>
+        <entry field="true" id="100" symbol="J0"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="76" symbol="miriam_350"/>
+        <entry field="true" id="89" symbol="lookup_montserat_0"/>
+        <entry id="114" method="true" symbol="calculate"/>
+        <entry field="true" id="75" symbol="miriam_340"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="74" symbol="miriam_330"/>
+        <entry id="41" method="true" symbol="getSunTimes"/>
+        <entry field="true" id="60" symbol="SunsetIcon"/>
+        <entry field="true" id="73" symbol="miriam_320"/>
+        <entry field="true" id="72" symbol="miriam_310"/>
+        <entry field="true" id="103" symbol="lastLng"/>
+        <entry field="true" id="112" symbol="Jnoon"/>
+        <entry field="true" id="91" symbol="lookup_miriam_0"/>
+        <entry field="true" id="71" symbol="miriam_300"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="61" symbol="LauncherIcon"/>
+        <entry id="43" method="true" symbol="getSunAngle"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="59" symbol="SunriseIcon"/>
+        <entry id="55" method="true" symbol="drawSunData"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="34" object="true" symbol="BezelText"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="70" symbol="miriam_290"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="69" symbol="miriam_280"/>
+        <entry field="true" id="90" symbol="letterwidths_miriam"/>
+        <entry field="true" id="121" symbol="normal"/>
+        <entry field="true" id="68" symbol="miriam_270"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="9" object="true" symbol="WatchFaceView"/>
+        <entry field="true" id="26" symbol="SUNSET_START"/>
+        <entry field="true" id="99" symbol="J2000"/>
+        <entry field="true" id="53" symbol="mSunriseIcon"/>
+        <entry field="true" id="111" symbol="dec"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="95" symbol="RAD"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="12" method="true" symbol="getLookupsmiriam"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="22" symbol="SUNRISE_END"/>
+        <entry id="40" method="true" symbol="getWeather"/>
+        <entry id="57" module="true" symbol="Layouts"/>
+        <entry id="39" method="true" symbol="getFormattedDay"/>
+        <entry field="true" id="119" symbol="letterwidths"/>
+        <entry field="true" id="92" symbol="letterwidths_icons"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="33" object="true" symbol="SunCalc"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="24" symbol="NOON"/>
+        <entry field="true" id="67" symbol="IconSunset"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="104" symbol="n"/>
+        <entry field="true" id="106" symbol="M"/>
+        <entry field="true" id="109" symbol="L"/>
+        <entry field="true" id="108" symbol="C"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435825" name="dc" stackId="1" startPc="268435479"/>
+        <entry endPc="268437589" name="clockTime" stackId="2" startPc="268435835"/>
+        <entry endPc="268437589" name="settings" stackId="9" startPc="268435835"/>
+        <entry endPc="268437589" name="minutes" stackId="4" startPc="268435835"/>
+        <entry endPc="268437589" name="halfDCHeight" stackId="6" startPc="268435835"/>
+        <entry endPc="268437589" name="halfDCWidth" stackId="5" startPc="268435835"/>
+        <entry endPc="268437589" name="totalWidth" stackId="7" startPc="268435835"/>
+        <entry endPc="268437589" name="textWidth" stackId="11" startPc="268435835"/>
+        <entry endPc="268437589" name="day" stackId="12" startPc="268435835"/>
+        <entry endPc="268437589" name="hours" stackId="3" startPc="268435835"/>
+        <entry endPc="268437589" name="x" stackId="8" startPc="268435835"/>
+        <entry endPc="268437589" name="notifications" stackId="10" startPc="268435835"/>
+        <entry arg="true" endPc="268437590" name="dc" stackId="1" startPc="268435831"/>
+        <entry endPc="268438013" name="sunAngle" stackId="3" startPc="268437595"/>
+        <entry arg="true" endPc="268438014" name="dc" stackId="1" startPc="268437591"/>
+        <entry arg="true" endPc="268438014" name="clockTime" stackId="2" startPc="268437591"/>
+        <entry arg="true" endPc="268439180" name="f" stackId="1" startPc="268438282"/>
+        <entry endPc="268439567" name="day" stackId="2" startPc="268439204"/>
+        <entry endPc="268439567" name="dayOfWeek" stackId="1" startPc="268439204"/>
+        <entry endPc="268440279" name="v" stackId="2" startPc="268439585"/>
+        <entry endPc="268440279" name="T" stackId="4" startPc="268439585"/>
+        <entry endPc="268440279" name="icon" stackId="3" startPc="268439585"/>
+        <entry endPc="268440279" name="conditions" stackId="1" startPc="268439585"/>
+        <entry endPc="268441471" name="now" stackId="5" startPc="268440285"/>
+        <entry endPc="268441471" name="jTransit" stackId="22" startPc="268440285"/>
+        <entry endPc="268441471" name="tzOffset" stackId="30" startPc="268440285"/>
+        <entry endPc="268441471" name="MFloor" stackId="16" startPc="268440285"/>
+        <entry endPc="268441471" name="M" stackId="15" startPc="268440285"/>
+        <entry endPc="268441471" name="y" stackId="10" startPc="268440285"/>
+        <entry endPc="268441471" name="deltaJSet" stackId="28" startPc="268440285"/>
+        <entry endPc="268441471" name="lambda" stackId="19" startPc="268440285"/>
+        <entry endPc="268441471" name="deg" stackId="8" startPc="268440285"/>
+        <entry endPc="268441471" name="jStar" stackId="14" startPc="268440285"/>
+        <entry endPc="268441471" name="jDate" stackId="12" startPc="268440285"/>
+        <entry endPc="268441471" name="C" stackId="18" startPc="268440285"/>
+        <entry endPc="268441471" name="omega" stackId="25" startPc="268440285"/>
+        <entry endPc="268441471" name="jSet" stackId="26" startPc="268440285"/>
+        <entry endPc="268441471" name="n" stackId="13" startPc="268440285"/>
+        <entry endPc="268441471" name="m" stackId="11" startPc="268440285"/>
+        <entry endPc="268441471" name="jRise" stackId="27" startPc="268440285"/>
+        <entry endPc="268441471" name="lambdaFloor" stackId="20" startPc="268440285"/>
+        <entry endPc="268441471" name="deltaJRise" stackId="29" startPc="268440285"/>
+        <entry endPc="268441471" name="cosOmega" stackId="24" startPc="268440285"/>
+        <entry endPc="268441471" name="d" stackId="6" startPc="268440285"/>
+        <entry endPc="268441471" name="delta" stackId="23" startPc="268440285"/>
+        <entry endPc="268441471" name="MFrac" stackId="17" startPc="268440285"/>
+        <entry endPc="268441471" name="a" stackId="9" startPc="268440285"/>
+        <entry endPc="268441471" name="lambdaFrac" stackId="21" startPc="268440285"/>
+        <entry endPc="268441471" name="rad" stackId="7" startPc="268440285"/>
+        <entry arg="true" endPc="268441472" name="tomorrow" stackId="4" startPc="268440281"/>
+        <entry arg="true" endPc="268441472" name="lng" stackId="2" startPc="268440281"/>
+        <entry arg="true" endPc="268441472" name="lat" stackId="1" startPc="268440281"/>
+        <entry arg="true" endPc="268441472" name="tz" stackId="3" startPc="268440281"/>
+        <entry endPc="268441581" name="now" stackId="1" startPc="268441477"/>
+        <entry endPc="268441778" name="now" stackId="4" startPc="268441587"/>
+        <entry arg="true" endPc="268441779" name="time" stackId="1" startPc="268441583"/>
+        <entry arg="true" endPc="268441779" name="minAngle" stackId="2" startPc="268441583"/>
+        <entry arg="true" endPc="268441779" name="maxAngle" stackId="3" startPc="268441583"/>
+        <entry endPc="268441838" name="location" stackId="1" startPc="268441784"/>
+        <entry endPc="268442117" name="stats" stackId="1" startPc="268441844"/>
+        <entry endPc="268442117" name="memory" stackId="2" startPc="268441844"/>
+        <entry endPc="268442284" name="oldfont" stackId="5" startPc="268442210"/>
+        <entry endPc="268442290" name="stats" stackId="4" startPc="268442123"/>
+        <entry arg="true" endPc="268442291" name="fc" stackId="2" startPc="268442119"/>
+        <entry arg="true" endPc="268442291" name="fLRU" stackId="3" startPc="268442119"/>
+        <entry arg="true" endPc="268442291" name="f" stackId="1" startPc="268442119"/>
+        <entry endPc="268442462" name="font" stackId="2" startPc="268442296"/>
+        <entry arg="true" endPc="268442463" name="f" stackId="1" startPc="268442292"/>
+        <entry arg="true" endPc="268442544" name="j" stackId="1" startPc="268442487"/>
+        <entry arg="true" endPc="268442617" name="a" stackId="1" startPc="268442545"/>
+        <entry endPc="268443505" name="x" stackId="6" startPc="268442622"/>
+        <entry endPc="268443505" name="ds" stackId="7" startPc="268442622"/>
+        <entry endPc="268443505" name="Jrise" stackId="9" startPc="268442622"/>
+        <entry endPc="268443505" name="Jset" stackId="8" startPc="268442622"/>
+        <entry endPc="268443505" name="d" stackId="5" startPc="268442622"/>
+        <entry arg="true" endPc="268443506" name="lng" stackId="3" startPc="268442618"/>
+        <entry arg="true" endPc="268443506" name="what" stackId="4" startPc="268442618"/>
+        <entry arg="true" endPc="268443506" name="lat" stackId="2" startPc="268442618"/>
+        <entry arg="true" endPc="268443506" name="moment" stackId="1" startPc="268442618"/>
+        <entry endPc="268443908" name="x" stackId="14" startPc="268443649"/>
+        <entry endPc="268443908" name="w" stackId="11" startPc="268443649"/>
+        <entry endPc="268443908" name="v" stackId="12" startPc="268443649"/>
+        <entry endPc="268443908" name="af" stackId="13" startPc="268443649"/>
+        <entry endPc="268443908" name="char" stackId="10" startPc="268443649"/>
+        <entry endPc="268443908" name="f" stackId="16" startPc="268443649"/>
+        <entry endPc="268443908" name="y" stackId="15" startPc="268443649"/>
+        <entry endPc="268443911" name="fh" stackId="6" startPc="268443516"/>
+        <entry endPc="268443911" name="a" stackId="9" startPc="268443516"/>
+        <entry endPc="268443911" name="reverse" stackId="7" startPc="268443516"/>
+        <entry endPc="268443911" name="t" stackId="8" startPc="268443516"/>
+        <entry endPc="268443911" name="textlookup" stackId="5" startPc="268443516"/>
+        <entry arg="true" endPc="268443912" name="dc" stackId="1" startPc="268443512"/>
+        <entry arg="true" endPc="268443912" name="font" stackId="4" startPc="268443512"/>
+        <entry arg="true" endPc="268443912" name="angle" stackId="3" startPc="268443512"/>
+        <entry arg="true" endPc="268443912" name="text" stackId="2" startPc="268443512"/>
+        <entry endPc="268444011" name="char" stackId="6" startPc="268443955"/>
+        <entry endPc="268444017" name="t" stackId="4" startPc="268443917"/>
+        <entry endPc="268444017" name="textWidth" stackId="5" startPc="268443917"/>
+        <entry arg="true" endPc="268444018" name="font" stackId="3" startPc="268443913"/>
+        <entry arg="true" endPc="268444018" name="text" stackId="2" startPc="268443913"/>
+        <entry arg="true" endPc="268444018" name="iconWidth" stackId="1" startPc="268443913"/>
+        <entry arg="true" endPc="268444046" name="state" stackId="1" startPc="268444042"/>
+        <entry arg="true" endPc="268444051" name="state" stackId="1" startPc="268444047"/>
+        <entry endPc="268444314" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268444135"/>
+        <entry arg="true" endPc="268444315" name="dc" stackId="1" startPc="268444123"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="SunriseIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="SunsetIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="HoursFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MinutesFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="SecondsFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="DateFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="IconSunrise"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="IconSunset"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_270"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_280"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_290"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_300"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_310"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_320"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_330"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_340"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_350"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_0"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_10"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_20"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_30"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_40"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_50"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_60"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_70"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="miriam_80"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="letterwidths_cantarell"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="lookup_cantarell_0"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="letterwidths_montserat"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="lookup_montserat_0"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="letterwidths_miriam"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="lookup_miriam_0"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="letterwidths_icons"/>
+        <annotationEntry annotation="initialized" class="JsonData" module="globals/Rez" symbol="lookup_icons_0"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/WatchFaceApp" offset="358" parentId="globals" symbolId="WatchFaceApp" type="class"/>
+        <dataEntry label="globals/TimeInfo" offset="429" parentId="globals" symbolId="TimeInfo" type="class"/>
+        <dataEntry label="globals/WatchFaceView" offset="548" parentId="globals" symbolId="WatchFaceView" type="class"/>
+        <dataEntry label="globals/BezelText" offset="739" parentId="globals" symbolId="BezelText" type="class"/>
+        <dataEntry label="globals/Rez" offset="802" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="881" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="936" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="967" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1190" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1229" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1324" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/SunCalc" offset="1363" parentId="globals" symbolId="SunCalc" type="class"/>
+        <dataEntry label="globals/Font" offset="1586" parentId="globals" symbolId="Font" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="WatchFaceView" startPc="268435456">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435825" name="onLayout" parent="WatchFaceView" startPc="268435479">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435830" name="onShow" parent="WatchFaceView" startPc="268435826">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437590" name="onUpdate" parent="WatchFaceView" startPc="268435831">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438014" name="drawSunData" parent="WatchFaceView" startPc="268437591">
+            <param id="dc"/>
+            <param id="clockTime"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438019" name="onHide" parent="WatchFaceView" startPc="268438015">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438024" name="onExitSleep" parent="WatchFaceView" startPc="268438020">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438029" name="onEnterSleep" parent="WatchFaceView" startPc="268438025">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444355" name="&lt;init&gt;" parent="WatchFaceView" startPc="268444337">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438092" name="getLookupsmontserat" startPc="268438030">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438155" name="getLookupscantarell" startPc="268438093">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438218" name="getLookupsmiriam" startPc="268438156">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438281" name="getLookupsicons" startPc="268438219">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439180" name="getFontmiriam" startPc="268438282">
+            <param id="f"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439185" name="initialize" parent="TimeInfo" startPc="268439181">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439580" name="getFormattedDay" parent="TimeInfo" startPc="268439186">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440280" name="getWeather" parent="TimeInfo" startPc="268439581">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441472" name="getSunTimes" parent="TimeInfo" startPc="268440281">
+            <param id="lat"/>
+            <param id="lng"/>
+            <param id="tz"/>
+            <param id="tomorrow"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441582" name="dayChanged" parent="TimeInfo" startPc="268441473">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441779" name="getSunAngle" parent="TimeInfo" startPc="268441583">
+            <param id="time"/>
+            <param id="minAngle"/>
+            <param id="maxAngle"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441839" name="calcSunTimes" parent="TimeInfo" startPc="268441780">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444336" name="&lt;init&gt;" parent="TimeInfo" startPc="268444336">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442118" name="initialize" parent="Font" startPc="268441840">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442291" name="freeMemory" parent="Font" startPc="268442119">
+            <param id="f"/>
+            <param id="fc"/>
+            <param id="fLRU"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442463" name="getFont" parent="Font" startPc="268442292">
+            <param id="f"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444817" name="&lt;init&gt;" parent="Font" startPc="268444817">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442486" name="initialize" parent="SunCalc" startPc="268442464">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442544" name="fromJulian" parent="SunCalc" startPc="268442487">
+            <param id="j"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442617" name="round" parent="SunCalc" startPc="268442545">
+            <param id="a"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443506" name="calculate" parent="SunCalc" startPc="268442618">
+            <param id="moment"/>
+            <param id="lat"/>
+            <param id="lng"/>
+            <param id="what"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444816" name="&lt;init&gt;" parent="SunCalc" startPc="268444387">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443511" name="initialize" parent="BezelText" startPc="268443507">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443912" name="draw" parent="BezelText" startPc="268443512">
+            <param id="dc"/>
+            <param id="text"/>
+            <param id="angle"/>
+            <param id="font"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444018" name="getTextWidth" parent="BezelText" startPc="268443913">
+            <param id="iconWidth"/>
+            <param id="text"/>
+            <param id="font"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444356" name="&lt;init&gt;" parent="BezelText" startPc="268444356">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444041" name="initialize" parent="WatchFaceApp" startPc="268444019">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444046" name="onStart" parent="WatchFaceApp" startPc="268444042">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444051" name="onStop" parent="WatchFaceApp" startPc="268444047">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444093" name="getInitialView" parent="WatchFaceApp" startPc="268444052">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444335" name="&lt;init&gt;" parent="WatchFaceApp" startPc="268444317">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444122" name="getApp" startPc="268444094">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444381" name="&lt;init&gt;" parent="Drawables" startPc="268444381">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444383" name="&lt;init&gt;" parent="Fonts" startPc="268444383">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444385" name="&lt;init&gt;" parent="JsonData" startPc="268444385">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444315" name="WatchFace" parent="Layouts" startPc="268444123">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444384" name="&lt;init&gt;" parent="Layouts" startPc="268444384">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444382" name="&lt;init&gt;" parent="Menus" startPc="268444382">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444386" name="&lt;init&gt;" parent="Strings" startPc="268444386">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268444380" name="&lt;init&gt;" parent="Rez" startPc="268444357">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
