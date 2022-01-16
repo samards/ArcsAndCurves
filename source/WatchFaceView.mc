@@ -16,6 +16,7 @@ class WatchFaceView extends WatchUi.WatchFace {
     var mHoursFont;
     var mMinutesFont;
     var mDataFont;
+    var mWindIcons;
     var mTimeInfo;
     var mSunriseIcon;
     var mSunsetIcon;
@@ -36,6 +37,7 @@ class WatchFaceView extends WatchUi.WatchFace {
 
         mSunriseIcon = WatchUi.loadResource(Rez.Fonts.IconSunrise);
         mSunsetIcon = WatchUi.loadResource(Rez.Fonts.IconSunset);
+        mWindIcons = WatchUi.loadResource(Rez.Fonts.IconsWind);
 
         setLayout(Rez.Layouts.WatchFace(dc));
     }
@@ -64,14 +66,9 @@ class WatchFaceView extends WatchUi.WatchFace {
 
         var totalWidth = dc.getTextWidthInPixels(hours, mHoursFont);
 		var x = halfDCWidth - (totalWidth / 2);
-        // System.println("x,y: " + Math.sin(Math.toRadians(45)) * (displayWidth/3) + ", "  + Math.cos(Math.toRadians(45)) * (displayWidth/3));
-        // System.println("x,y: " + Math.sin(Math.toRadians(135)) * (displayWidth/3) + ", "  + Math.cos(Math.toRadians(135)) * (displayWidth/3));
-        // System.println("x,y: " + Math.sin(Math.toRadians(225)) * (displayWidth/3) + ", "  + Math.cos(Math.toRadians(225)) * (displayWidth/3));
-        // System.println("x,y: " + Math.sin(Math.toRadians(315)) * (displayWidth/3) + ", "  + Math.cos(Math.toRadians(315)) * (displayWidth/3));
-		// Draw hours.
 
+		// Draw hours.
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        // dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
 		dc.drawText(
 			halfDCWidth,
 			halfDCHeight - 5,
@@ -80,6 +77,7 @@ class WatchFaceView extends WatchUi.WatchFace {
 			Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
 		);
 
+        // Minutes
         dc.setColor(0xaaaaaa, Graphics.COLOR_TRANSPARENT);
 		dc.drawText(
 			halfDCWidth,
@@ -89,6 +87,7 @@ class WatchFaceView extends WatchUi.WatchFace {
 			Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
 		);
 
+        // Notifications
         var settings = System.getDeviceSettings();
         var notifications = settings.notificationCount.format("%02d");
         var textWidth = dc.getTextWidthInPixels(notifications, mDataFont) + 4;
@@ -110,6 +109,7 @@ class WatchFaceView extends WatchUi.WatchFace {
             bezelText.draw(dc, day[0], day[1], font);
         }
 
+        // Minutes arch
         dc.setColor(0x555555, Graphics.COLOR_TRANSPARENT);
         dc.setPenWidth(4);
     	dc.drawCircle(dc.getWidth() / 2, dc.getHeight() / 2, displayWidth / 3);
@@ -123,19 +123,18 @@ class WatchFaceView extends WatchUi.WatchFace {
         
         dc.setColor(0x555555, Graphics.COLOR_TRANSPARENT);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 3, 57);
-        // dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 63, 117);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 123, 177);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 183, 237);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 243, 297);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 303, 357);
 
+        drawWeatherData(dc);
         drawSunData(dc, Gregorian.info(Time.now(), Time.FORMAT_SHORT));
     }
 
     function drawSunData(dc, clockTime) {
         dc.setColor(0x555555, Graphics.COLOR_TRANSPARENT);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 65, 115);
-        // dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 303, 357);
         dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
         dc.drawText(70, 9, mSunriseIcon, "A", Graphics.TEXT_JUSTIFY_CENTER);
         dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
@@ -146,6 +145,20 @@ class WatchFaceView extends WatchUi.WatchFace {
             dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 65, 65 + sunAngle);
         }
     }
+
+    function drawWeatherData(dc) {
+        var w = mTimeInfo.getWeather();
+
+        dc.setColor(0x555555, Graphics.COLOR_TRANSPARENT);
+        dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 123, 177);
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_CLOCKWISE, 177, 177 - (w[2]*54/100.0));
+        dc.drawText(28, 85, mWindIcons, "W", Graphics.TEXT_JUSTIFY_CENTER);
+        bezelText.draw(dc, w[4], 300, font);
+        bezelText.draw(dc, w[1] + "°", 60, font);
+
+    }
+
 
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from

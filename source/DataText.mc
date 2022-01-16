@@ -37,21 +37,33 @@ class TimeInfo {
 	function getWeather() {
 		var conditions = Weather.getCurrentConditions();    
 		var v = conditions.condition;
-		var icon ="";
-		var T;
+		var w = conditions.windBearing;
+		var icon = "";
+		var wind = "";
 
-		if (v==0||v==40){T = "A";} // Clear
-		else if(v==53) {T="";} // Unknown
-		else if(v==1||v==22||v==23||v==52) {T= "B";} // Partly clouds
-		else if(v==2) {T= "C";} // Mostly clouds
-		else if(v==20) {T= "D";} // Heavy clouds
-		else if(v==8||v==9||v==29||v==30||v==33||v==35||v==36||v==38||v==39||v==48) {T= "m";} // Fog - Haze
-		else if(v==4||v==7||v==10||v==16||v==17||v==18||v==19||v==21||v==34||v==43||v==44||v==46||v==47||v==51) {T= "l";} // Snow
-		else if(v==6||v==12||v==28) {T= "n";} // Thunder
-		else if(v==5||v==32||v==35||v==37||v==41||v==42) {T= "o";} // Wind
-		else {T="k";} // Rain
+		// Get Weather Icon
+		if (v==0||v==40){icon = "A";} // Clear
+		else if(v==53) {icon="";} // Unknown
+		else if(v==1||v==22||v==23||v==52) {icon= "B";} // Partly clouds
+		else if(v==2) {icon= "C";} // Mostly clouds
+		else if(v==20) {icon= "D";} // Heavy clouds
+		else if(v==8||v==9||v==29||v==30||v==33||v==35||v==36||v==38||v==39||v==48) {icon= "m";} // Fog - Haze
+		else if(v==4||v==7||v==10||v==16||v==17||v==18||v==19||v==21||v==34||v==43||v==44||v==46||v==47||v==51) {icon= "l";} // Snow
+		else if(v==6||v==12||v==28) {icon= "n";} // Thunder
+		else if(v==5||v==32||v==35||v==37||v==41||v==42) {icon= "o";} // Wind
+		else {icon="k";} // Rain
 
-		return T;
+		//Get Wind icon
+		if(w > 335 || w < 25 ) {wind = "T";} // Nord
+		else if (w > 295) {wind = "[";}
+		else if (w > 245) {wind = "Z";}
+		else if (w > 205) {wind = "Y";}
+		else if (w > 155) {wind = "X";}
+		else if (w > 115) {wind = "W";}
+		else if (w > 65) {wind = "V";}
+		else {wind = "U";}
+
+		return [icon, conditions.temperature.format("%d"), conditions.precipitationChance, wind, Math.ceil(conditions.windSpeed * 3.6).format("%d")];
 	}
 
 	/**
@@ -196,4 +208,5 @@ class TimeInfo {
 			mSunTimes = getSunTimes(52.0439927, 4.3909217, null, /* tomorrow */ false);
 		// }	
 	}
+
 }
