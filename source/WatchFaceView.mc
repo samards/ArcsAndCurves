@@ -153,8 +153,8 @@ class WatchFaceView extends WatchUi.WatchFace {
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 123, 177);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_CLOCKWISE, 177, 177 - (w[2]*54/100.0));
-        dc.drawText(28, 85, mWindIcons, "W", Graphics.TEXT_JUSTIFY_CENTER);
-        bezelText.draw(dc, w[4], 300, font);
+        dc.drawText(28, 80, mWindIcons, w[3], Graphics.TEXT_JUSTIFY_CENTER);
+        bezelText.draw(dc, w[4], 302, font);
         bezelText.draw(dc, w[1] + "°", 60, font);
 
     }

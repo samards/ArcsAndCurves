@@ -54,14 +54,14 @@ class TimeInfo {
 		else {icon="k";} // Rain
 
 		//Get Wind icon
-		if(w > 335 || w < 25 ) {wind = "T";} // Nord
-		else if (w > 295) {wind = "[";}
-		else if (w > 245) {wind = "Z";}
-		else if (w > 205) {wind = "Y";}
-		else if (w > 155) {wind = "X";}
-		else if (w > 115) {wind = "W";}
-		else if (w > 65) {wind = "V";}
-		else {wind = "U";}
+		if(w > 335 || w < 25 ) {wind = "A";} // Nord
+		else if (w > 295) {wind = "H";}
+		else if (w > 245) {wind = "F";}
+		else if (w > 205) {wind = "F";}
+		else if (w > 155) {wind = "E";}
+		else if (w > 115) {wind = "D";}
+		else if (w > 65) {wind = "C";}
+		else {wind = "B";}
 
 		return [icon, conditions.temperature.format("%d"), conditions.precipitationChance, wind, Math.ceil(conditions.windSpeed * 3.6).format("%d")];
 	}
