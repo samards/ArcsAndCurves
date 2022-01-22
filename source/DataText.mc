@@ -66,6 +66,16 @@ class TimeInfo {
 		return [icon, conditions.temperature.format("%d"), conditions.precipitationChance, wind, Math.ceil(conditions.windSpeed * 3.6).format("%d")];
 	}
 
+	function getBatteryStatus() {
+        var battery = Math.ceil(System.getSystemStats().battery);
+		var icon = "";
+        if(battery > 75) {icon = "Q";} // Full
+		else if (battery > 25) {icon = "O";}
+		else {icon = "P";}
+        
+		return [icon, battery.format("%d")];
+	}
+
 	/**
 		* With thanks to ruiokada. Adapted, then translated to Monkey C, from:
 		* https://gist.github.com/ruiokada/b28076d4911820ddcbbc

@@ -18,6 +18,8 @@ class WatchFaceView extends WatchUi.WatchFace {
     var mDataFont;
     var mWindIcons;
     var mTimeInfo;
+    var mWeatherIcons;
+    var mBatteryIcons;
     var mSunriseIcon;
     var mSunsetIcon;
 
@@ -38,6 +40,8 @@ class WatchFaceView extends WatchUi.WatchFace {
         mSunriseIcon = WatchUi.loadResource(Rez.Fonts.IconSunrise);
         mSunsetIcon = WatchUi.loadResource(Rez.Fonts.IconSunset);
         mWindIcons = WatchUi.loadResource(Rez.Fonts.IconsWind);
+        mWeatherIcons = WatchUi.loadResource(Rez.Fonts.IconsWeather);
+        mBatteryIcons = WatchUi.loadResource(Rez.Fonts.IconsBattery);
 
         setLayout(Rez.Layouts.WatchFace(dc));
     }
@@ -130,6 +134,7 @@ class WatchFaceView extends WatchUi.WatchFace {
 
         drawWeatherData(dc);
         drawSunData(dc, Gregorian.info(Time.now(), Time.FORMAT_SHORT));
+        drawBatteryData(dc);
     }
 
     function drawSunData(dc, clockTime) {
@@ -153,12 +158,20 @@ class WatchFaceView extends WatchUi.WatchFace {
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 123, 177);
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_CLOCKWISE, 177, 177 - (w[2]*54/100.0));
+        // Wind 
         dc.drawText(28, 80, mWindIcons, w[3], Graphics.TEXT_JUSTIFY_CENTER);
         bezelText.draw(dc, w[4], 302, font);
+        //Weather
+        dc.drawText(210, 40, mWeatherIcons, w[0], Graphics.TEXT_JUSTIFY_CENTER);
         bezelText.draw(dc, w[1] + "°", 60, font);
-
     }
 
+    function drawBatteryData(dc) {
+        var b = mTimeInfo.getBatteryStatus();
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(110, 220, mBatteryIcons, b[0], Graphics.TEXT_JUSTIFY_CENTER);
+        bezelText.draw(dc, b[1] + "%", 160, font);
+    }
 
     // Called when this View is removed from the screen. Save the
     // state of this View here. This includes freeing resources from
