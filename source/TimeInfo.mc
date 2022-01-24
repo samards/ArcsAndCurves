@@ -63,7 +63,7 @@ class TimeInfo {
 		else if (w > 65) {wind = "C";}
 		else {wind = "B";}
 
-		return [icon, conditions.temperature.format("%d"), conditions.precipitationChance, wind, Math.ceil(conditions.windSpeed * 3.6).format("%d")];
+		return [icon, conditions.temperature.format("%d"), conditions.precipitationChance, wind, Math.ceil(conditions.windSpeed * 3.6).format("%d"), conditions.relativeHumidity];
 	}
 
 	function getBatteryStatus() {

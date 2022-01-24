@@ -18,6 +18,7 @@ class WatchFaceView extends WatchUi.WatchFace {
     var mDataFont;
     var mWindIcons;
     var mTimeInfo;
+    var mActivityInfo;
     var mWeatherIcons;
     var mBatteryIcons;
     var mSunriseIcon;
@@ -32,6 +33,7 @@ class WatchFaceView extends WatchUi.WatchFace {
         font = new Font();
         bezelText = new BezelText();
         mTimeInfo = new TimeInfo();
+        mActivityInfo = new ActivityInfo();
 
         mHoursFont = WatchUi.loadResource(Rez.Fonts.HoursFont);
         mMinutesFont = WatchUi.loadResource(Rez.Fonts.SecondsFont);
@@ -126,15 +128,14 @@ class WatchFaceView extends WatchUi.WatchFace {
         }
         
         dc.setColor(0x555555, Graphics.COLOR_TRANSPARENT);
-        dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 3, 57);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 123, 177);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 183, 237);
-        dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 243, 297);
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 303, 357);
 
         drawWeatherData(dc);
         drawSunData(dc, Gregorian.info(Time.now(), Time.FORMAT_SHORT));
         drawBatteryData(dc);
+        drawMoveBarData(dc);
     }
 
     function drawSunData(dc, clockTime) {
@@ -145,7 +146,7 @@ class WatchFaceView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(192, 9, mSunsetIcon, "B", Graphics.TEXT_JUSTIFY_CENTER);
 
-        var sunAngle = mTimeInfo.getSunAngle(clockTime, 65, 115);
+        var sunAngle = Math.ceil(mTimeInfo.getSunAngle(clockTime, 65, 115));
         if (sunAngle > 0) {
             dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 65, 65 + sunAngle);
         }
@@ -155,22 +156,41 @@ class WatchFaceView extends WatchUi.WatchFace {
         var w = mTimeInfo.getWeather();
 
         dc.setColor(0x555555, Graphics.COLOR_TRANSPARENT);
+        // Humidity scale
         dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 123, 177);
+        // Precipitation scale
+        dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, 3, 57);
+
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_CLOCKWISE, 177, 177 - (w[2]*54/100.0));
+        // Humidity
+        dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_CLOCKWISE, 177, 177 - (w[5]*54/100.0));
+        // Precipitation
+        dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_CLOCKWISE, 57, 57 - (w[2]*54/100.0));
         // Wind 
         dc.drawText(28, 80, mWindIcons, w[3], Graphics.TEXT_JUSTIFY_CENTER);
         bezelText.draw(dc, w[4], 302, font);
         //Weather
         dc.drawText(210, 40, mWeatherIcons, w[0], Graphics.TEXT_JUSTIFY_CENTER);
         bezelText.draw(dc, w[1] + "°", 60, font);
+        // Humidity
     }
 
     function drawBatteryData(dc) {
         var b = mTimeInfo.getBatteryStatus();
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(110, 220, mBatteryIcons, b[0], Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(107, 218, mBatteryIcons, b[0], Graphics.TEXT_JUSTIFY_CENTER);
         bezelText.draw(dc, b[1] + "%", 160, font);
+    }
+
+    function drawMoveBarData(dc) {
+        var m = mActivityInfo.getMoveBarLevel();
+        var startArc = 243;
+        for(var i = 0; i < 5; i++) {
+            var interval = (i == 0 ? 26 : 5);
+            dc.setColor(m >= i ? Graphics.COLOR_RED : 0x555555, Graphics.COLOR_TRANSPARENT);
+            dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, startArc, startArc + interval);
+            startArc+=interval + 2;
+        }
     }
 
     // Called when this View is removed from the screen. Save the
