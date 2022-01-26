@@ -9,6 +9,8 @@
 	<font id="IconsWind" filename="icons_wind.fnt" antialias="true" />
 	<font id="IconsWeather" filename="icons_weather.fnt" antialias="true" />
 	<font id="IconsBattery" filename="icons_battery.fnt" antialias="true" />
+	<font id="IconsDevice" filename="icons_bt.fnt" antialias="true" />
+	<font id="IconsHeart" filename="icons_heart.fnt" antialias="true" />
 	
    	<font id="miriam_270" filename="miriam_270.fnt" antialias="true" />
 	<font id="miriam_280" filename="miriam_280.fnt" antialias="true" />

@@ -1,18 +1,33 @@
 using Toybox.Math;
 using Toybox.System as Sys;
-using Toybox.Activity as Activity;
+using Toybox.ActivityMonitor as ActMon;
+using Toybox.Activity;
 
 class ActivityInfo {
-
-private var mTodayTime;
-	private var mTodayDay;
-	private var mSunTimes;
 
 	function initialize() {
 	}
    
-	function getMoveBarLevel() {
-        return ActivityMonitor.getInfo().moveBarLevel;
+	function getActivityInfo() {
+		var info = Activity.getActivityInfo();
+		var heartRate = info.currentHeartRate;
+		
+		if (heartRate == null && ActMon has :getHeartRateHistory) {
+			var HRH = ActMon.getHeartRateHistory(1, true);
+			var HRS = HRH.next();
+			if (HRS != null && HRS.heartRate != ActMon.INVALID_HR_SAMPLE) {
+				heartRate = HRS.heartRate;
+			}
+		}
+
+		heartRate = (heartRate == null ? "--" : heartRate.toString());
+	
+        return [ActMon.getInfo().moveBarLevel, heartRate, info.calories];
 	}    
+
+	function getDeviceStatus() {
+		var settings = Sys.getDeviceSettings();
+		return [settings.phoneConnected, settings.alarmCount];
+	}
 
 }

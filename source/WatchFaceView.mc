@@ -16,11 +16,13 @@ class WatchFaceView extends WatchUi.WatchFace {
     var mHoursFont;
     var mMinutesFont;
     var mDataFont;
-    var mWindIcons;
     var mTimeInfo;
     var mActivityInfo;
+    var mWindIcons;
     var mWeatherIcons;
     var mBatteryIcons;
+    var mDeviceIcons;
+    var mHeartIcons;
     var mSunriseIcon;
     var mSunsetIcon;
 
@@ -44,6 +46,8 @@ class WatchFaceView extends WatchUi.WatchFace {
         mWindIcons = WatchUi.loadResource(Rez.Fonts.IconsWind);
         mWeatherIcons = WatchUi.loadResource(Rez.Fonts.IconsWeather);
         mBatteryIcons = WatchUi.loadResource(Rez.Fonts.IconsBattery);
+        mDeviceIcons = WatchUi.loadResource(Rez.Fonts.IconsDevice);
+        mHeartIcons = WatchUi.loadResource(Rez.Fonts.IconsHeart);
 
         setLayout(Rez.Layouts.WatchFace(dc));
     }
@@ -135,7 +139,8 @@ class WatchFaceView extends WatchUi.WatchFace {
         drawWeatherData(dc);
         drawSunData(dc, Gregorian.info(Time.now(), Time.FORMAT_SHORT));
         drawBatteryData(dc);
-        drawMoveBarData(dc);
+        drawActivityData(dc);
+        drawDeviceStatus(dc);
     }
 
     function drawSunData(dc, clockTime) {
@@ -182,15 +187,28 @@ class WatchFaceView extends WatchUi.WatchFace {
         bezelText.draw(dc, b[1] + "%", 160, font);
     }
 
-    function drawMoveBarData(dc) {
-        var m = mActivityInfo.getMoveBarLevel();
+    function drawDeviceStatus(dc) {
+        var s = mActivityInfo.getDeviceStatus();
+        dc.setColor(s[0] ? Graphics.COLOR_ORANGE : Graphics.COLOR_BLACK , Graphics.COLOR_TRANSPARENT);
+        dc.drawText(70, 120, mDeviceIcons, "A", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.setColor(s[1] == 0 ? Graphics.COLOR_BLACK : Graphics.COLOR_ORANGE , Graphics.COLOR_TRANSPARENT);
+        dc.drawText(190, 118, mDeviceIcons, "B", Graphics.TEXT_JUSTIFY_CENTER);
+    }
+
+    function drawActivityData(dc) {
+        var a = mActivityInfo.getActivityInfo();
+        // Move bar
         var startArc = 243;
         for(var i = 0; i < 5; i++) {
             var interval = (i == 0 ? 26 : 5);
-            dc.setColor(m >= i ? Graphics.COLOR_RED : 0x555555, Graphics.COLOR_TRANSPARENT);
+            dc.setColor(a[0] >= i ? Graphics.COLOR_RED : 0x555555, Graphics.COLOR_TRANSPARENT);
             dc.drawArc(dc.getWidth() / 2, dc.getWidth() / 2, (displayWidth / 2) - 2, Graphics.ARC_COUNTER_CLOCKWISE, startArc, startArc + interval);
             startArc+=interval + 2;
         }
+        // Heart data
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(25, 145, mHeartIcons, "5", Graphics.TEXT_JUSTIFY_CENTER);
+        bezelText.draw(dc, a[1], 227, font);
     }
 
     // Called when this View is removed from the screen. Save the
